@@ -6,7 +6,7 @@
 	- l=[[1,3],[2,5],[-88,2],["XD",5]]
 	- for i,j in l:
 	     print(f"{i},{j})
-	- slice:[start:end:step]
+	- slice: [ start  :  end  :  step ]
 #### 串列常見用法:
 - l [ -1] ->最後一個元素, l[::-1] ->反轉串列
 - append() -> 作為一個單位附加到尾端
