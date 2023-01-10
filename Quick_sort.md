@@ -62,7 +62,7 @@ class Solution:
 
                     l.append(n)
 
-                if n>=nums[pivot]:
+                if n>nums[pivot]:
 
                     r.append(n)
 
