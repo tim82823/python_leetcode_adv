@@ -51,6 +51,8 @@ class Solution:
 
         return m
 ```
+
+
 ### 1008 construct Binary tree from Preorder Traversal
 
 ### Preorder Traversal
@@ -69,6 +71,7 @@ class Solution:
 - build root node to TreeNode(A[self.i]), i++
 - using recursive to get root.left and root.right,range分別為root.val,bound
 - return root
+
 ``` python
 
 class Solution:
