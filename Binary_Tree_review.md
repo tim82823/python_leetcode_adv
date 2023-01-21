@@ -26,9 +26,7 @@ find the Max path sum
 	- init m=(n.val+n.val,r+n.val,l)中較大者
 	- update sele.res and m,l+r+n.val compare
 	- return m
-	
-	```python
-	
+```python
 class Solution:
 
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
