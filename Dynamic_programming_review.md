@@ -42,7 +42,7 @@ class Solution:
 ### 91.decode ways
 A-Z一共26個字母
 - if  string is empty,表示無法mapping,return 0(if dp[0]視為1)
-- 我們可推0~i的字串的decode種類,會跟0~i-1子字串/ 0~i-2字串有關
+- 我們可推 0~i 的字串的decode種類,會跟 0~i-1 子字串/  0~i-2 字串有關
 - 只要s[i-1]不是"0"的話,就代表它可以獨立做一個字母,所以s[i-1],s[i]各自分開consider的種類就是0~i-1種類(becasue s[i]自己成一種)
 - if s[i-2]是"1",or s[i-2]是"2"且 s[i-1]在"6"以下的話,s[i-2]和s[i-1]會combine,然後s[i]自己一種
 ### sol:
