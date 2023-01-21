@@ -28,18 +28,7 @@ find the Max path sum
 	- return m
 	
 	```python
-	# Definition for a binary tree node.
-
-# class TreeNode:
-
-#     def __init__(self, val=0, left=None, right=None):
-
-#         self.val = val
-
-#         self.left = left
-
-#         self.right = right
-
+	
 class Solution:
 
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
@@ -81,17 +70,6 @@ class Solution:
 - using recursive to get root.left and root.right,range分別為root.val,bound
 - return root
 ``` python
-# Definition for a binary tree node.
-
-# class TreeNode:
-
-#     def __init__(self, val=0, left=None, right=None):
-
-#         self.val = val
-
-#         self.left = left
-
-#         self.right = right
 
 class Solution:
 
